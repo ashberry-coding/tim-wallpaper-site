@@ -1,0 +1,55 @@
+.content{
+    left: 15%;
+    position: relative;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 40rem;
+    margin-top: 3rem;
+    border-radius: 50px;
+    text-align: center;
+    overflow:hidden;
+}
+
+.baskt{
+    font-size: 1.5rem;
+}
+
+.pr{
+    margin: 3rem;
+}
+
+.pr1{
+    margin: 2rem;
+}
+
+body{
+    background-color: none!important;
+    background-image: url("/img/cdek.jpg")!important;
+}
+.navMenu a {
+    color: #272727;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:hover {
+    color: #757575;
+  }
+  .navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #272727;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }

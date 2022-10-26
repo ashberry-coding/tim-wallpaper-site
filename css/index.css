@@ -4,6 +4,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
 }
+
 .header{
     padding-top: 1rem;
     height: 80px;
@@ -12,10 +13,12 @@
     text-align: center;
     box-shadow: 0 0 5px;
 }
+
 .header a{
     font-size: 2rem;
     font-weight: 1000;
 }
+
 .basket img{
     position: absolute;
     float: right;
@@ -24,6 +27,7 @@
     width: 3rem;
     height: 3rem;
 }
+
 /*МЕНЮ*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 

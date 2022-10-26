@@ -4,6 +4,19 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
 }
+.obs{
+    display: flex;
+    float: left;
+  }
+  .obs1{
+    display: flex;
+    float: left;
+    margin-left: 25rem;
+  }
+body {
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+}
 
 .header{
     padding-top: 1rem;
@@ -28,80 +41,55 @@
     height: 3rem;
 }
 
-/*МЕНЮ*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
-body {
-  background: #272727;
-  font-family: "Montserrat", sans-serif;
+.men{
+    background-color: antiquewhite;
+    width: 250px;
+    height: 25rem;
+    margin: 3rem 5rem 0 3rem;
+    border-radius: 20px;
 }
 
-.navMenu {
-  position: absolute;
-  top: 5.5rem;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.menu{
+    border-radius: 20px;
+    padding: 1.4rem 1.9rem 1.3rem 1.9rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color:black;
+    display: block;
+    overflow: hidden;
+}
+.menu:hover{
+    text-shadow: 0 0 3px rgba(0,0,0,0.2);
+    background-color: #bbbbbb;
+    width: 100%;
+    overflow: hidden;
 }
 
-.navMenu a {
-  color: #f6f4e6;
-  text-decoration: none;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  font-weight: 500;
-  display: inline-block;
-  width: 80px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
 
-.navMenu a:hover {
-  color: bisque;
-}
 
-.navMenu .dot {
-  width: 6px;
-  height: 6px;
-  background: bisque;
-  border-radius: 50%;
-  opacity: 0;
-  -webkit-transform: translateX(30px);
-  transform: translateX(30px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
 
-.navMenu a:nth-child(1):hover ~ .dot {
-  -webkit-transform: translateX(30px);
-  transform: translateX(30px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
-
-.navMenu a:nth-child(2):hover ~ .dot {
-  -webkit-transform: translateX(110px);
-  transform: translateX(110px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
-
-.navMenu a:nth-child(3):hover ~ .dot {
-  -webkit-transform: translateX(200px);
-  transform: translateX(200px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
-
-.navMenu a:nth-child(4):hover ~ .dot {
-  -webkit-transform: translateX(285px);
-  transform: translateX(285px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
+.fixed {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+    background: rgba(85, 85, 85, 0.74);
+    position: fixed;
+    color: #FFF;
+    -webkit-transition: bottom .2s ease-out 0s;
+    -moz-transition: bottom .2s ease-out 0s;
+    -o-transition: bottom .2s ease-out 0s;
+    transition: bottom .2s ease-out 0s;
+    z-index: 5;
+  }
+  
+  .fixed-top{
+    bottom: 0;
+  }
+  
+  .fixed-bottom{
+    bottom: -75px;
+  }
 /*Конец меню*/
 /*Карточка*/

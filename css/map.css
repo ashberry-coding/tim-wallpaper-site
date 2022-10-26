@@ -1,9 +1,8 @@
 .content{
-    left: 15%;
+    width: 84rem;
     position: relative;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    width: 70%;
     height: 40rem;
     margin-top: 3rem;
     border-radius: 50px;

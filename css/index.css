@@ -7,14 +7,15 @@
 .obs{
     display: flex;
     float: left;
-  }
+}
   .obs1{
     display: flex;
     float: left;
     margin-left: 25rem;
   }
+
 body {
-  background: #272727;
+  background:rgb(115, 206, 153);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -22,7 +23,7 @@ body {
     padding-top: 1rem;
     height: 80px;
     width: 100%;
-    background-color: bisque;
+    background-color: rgb(197, 130, 91);
     text-align: center;
     box-shadow: 0 0 5px;
 }
